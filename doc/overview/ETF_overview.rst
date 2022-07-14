@@ -1,7 +1,7 @@
-:Author: Enrique Soriano
-:Author: Marco Minghini
 :Author: Clemens Portele
 :Author: Jon Herrmann
+:Author: Marco Minghini
+:Author: Enrique Soriano
 :License: Creative Commons Attribution (cc-by) 4.0
 :Thanks: 
 
@@ -30,54 +30,50 @@ ETF is the underlying framework used by the INSPIRE Reference Validator to valid
 
 Core Features
 --------------------------------------------------------------------------------
-**Testable resources**
-* datasets (up to multiplr hundreds GB): GML
-* metadata: XML
-* view services: WMS/WMTS
-* download services: Atom, WFS, WCS, SOS
-* catalogue services: CSW
-* large data sets(multiple hundreds of GB)
+* Testable resources
+   - datasets (up to multiple hundreds GB): GML
+   - metadata: XML
+   - view services: WMS/WMTS
+   - download services: Atom, WFS, WCS, SOS
+   - catalogue services: CSW
 
-**Access**
-* web-based user interface
-* REST API
-* OpenAPI Specification
-* Java client library
+* Access
+   - web-based user interface
+   - REST API
+   - OpenAPI Specification
+   - Java client library
 
-**Supported test engines**
-* SoapUI for testing web
-* BaseX for testing sets of XML documents
-* TEAM Engine to support CITE tests developed using TestNG
-* NeoTL for testing OGC WFS and OGC APIs (in development)
+* Supported test engines
+   - SoapUI for testing web services
+   - BaseX for testing sets of XML documents
+   - TEAM Engine to support CITE tests developed using TestNG
+   - NeoTL for testing OGC WFS and OGC APIs (in development)
 
-**Test reports**
-* user-friendly and self-explanatory
-* downloadable in HTML, XML and JSON
+* Test reports
+   - user-friendly and self-explanatory
+   - downloadable in HTML, XML and JSON
 
-
-Implemented Standards
---------------------------------------------------------------------------------
-
-* Catalogue Service for the Web (CSW)
-* International Organization for Standardization (ISO)
-* Sensor Observation Service (SOS)
-* Web Feature Service (WFS)
-* Web Map Tile Service (WMTS)
-* Geography Markup Language (GML)
-* (OGC API - Features)
-* Web Coverage Service (WCS)
-* Web Map  Service (WMS)
+* Implemented Standards
+   - CSW
+   - ISO 19105
+   - SOS
+   - WFS
+   - WMTS
+   - GML
+   - OGC API - Features
+   - WCS
+   - WMS
 
 
 
-About ETF
+Details
 --------------------------------------------------------------------------------
 
 **Website:** @WEB_ETF@
 
 **Licence:** EUPL 1.2
 
-**Software Version:** |version-ETF|
+**Software Version:** 2.0
 
 **Supported Platforms:** Windows, Linux
 
